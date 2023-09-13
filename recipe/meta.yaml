@@ -11,7 +11,7 @@ source:
   sha256: 357d6c9e6a755653cfd78893817c0853af365dd51ec97f3d358a819373bbd174
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -34,7 +34,7 @@ test:
 about:
   home: https://github.com/graingert/pkgutil-resolve-name
   summary: Backport of Python 3.9's pkgutil.resolve_name; resolves a name to an object.
-  license: BSD-4-Clause
+  license: MIT AND PSF-2.0
   license_file: LICENSE
   doc_url: https://docs.python.org/3.9/library/pkgutil.html#pkgutil.resolve_name
 
